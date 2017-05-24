@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Čet 30 Kol 2012 17:02:03
+EESchema Schematic File Version 2  date Čet 30 Kol 2012 17:04:33
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -45,6 +45,18 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	15550 7150 15100 7150
+Wire Wire Line
+	15550 7350 15100 7350
+Wire Wire Line
+	15550 7250 15100 7250
+Text Label 15200 7250 0    60   ~ 0
+XA0
+Text Label 15200 7350 0    60   ~ 0
+XA1
+Text Label 15200 7150 0    60   ~ 0
+BS1
 $Comp
 L GND #PWR01
 U 1 1 5018FCBA
