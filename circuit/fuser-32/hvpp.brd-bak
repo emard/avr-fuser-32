@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date Čet 13 Ožu 2014 18:11:20
+PCBNEW-BOARD Version 2 date Čet 13 Ožu 2014 18:11:40
 
 # Created by Pcbnew(2013-jul-07)-stable
 
@@ -22,7 +22,7 @@ $SHEETDESCR
 Sheet A4 11693 8268
 Title "fuser"
 Date "13 mar 2014"
-Rev "32"
+Rev "33"
 Comp "emard"
 Comment1 "high voltage programmer and fuse reset"
 Comment2 ""
@@ -3629,7 +3629,7 @@ De 26 0 900 0 0
 $EndDRAWSEGMENT
 $TEXTPCB
 Te "FUSER"
-nl "v32"
+nl "v33"
 Po 135.89 62.23 2.99974 2.99974 0.50038 0
 De 0 0 0 Normal
 $EndTEXTPCB
