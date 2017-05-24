@@ -1,0 +1,8 @@
+*~
+# intermediate generate netlist file
+adapter.net
+# intermediate files of the freeroute
+adapter.dsn
+adapter.bin
+adapter.ses
+adapter.rules

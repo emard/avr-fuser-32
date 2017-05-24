@@ -1,0 +1,8 @@
+*~
+# intermediate generate netlist file
+hvpp.net
+# intermediate files of the freeroute
+hvpp.dsn
+hvpp.bin
+hvpp.ses
+hvpp.rules
