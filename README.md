@@ -19,7 +19,7 @@ resets chip to factory default state.
 Complete with firmware, bootloader, kicad schematics and PCB 
 for the programmer PCB and sockets adapter PCB.
 
-Supported devices:
+Supported devices (I tried many but not all of them :)
 
     ATMEGA 8, 16, 32, 162, 168P, 328P, 16M1, 32M1, 64M1, 8515, 8535
     ATTINY 11, 13, 15, 26, 84, 85, 2313, 4313
