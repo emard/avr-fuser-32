@@ -1,0 +1,4 @@
+[x] LED diode - padovi na donjoj strani
+    nemaju solmask
+[ ] za tipke rupe za pinove trebaju biti bliže
+[ ] resistors 330 ohm to all 20pin lines

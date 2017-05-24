@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# extract pdf page
+pdftk HV_PROG_Adapter2.pdf cat 3 output board.pdf
+
+# converted from pdf to ppm in 300 dpi resolution
+pdftoppm -r 300 board.pdf  > board.gif
+

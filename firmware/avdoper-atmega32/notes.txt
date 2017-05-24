@@ -1,0 +1,15 @@
+here works HVPP and HVSP
+
+[x] find only what the F***K enables JTAG
+    on this MCU. The disabling in main is not sufficient
+[x] fusereset doesn't work for hvsp,
+    read signature gives 0xff, despite set or clr weak pull up SDO
+[ ] sometimes there's protocolr error: (dmesg shows no usb error)
+Writing |                                                    | 0% 0.00sError
+sending message: error sending control message: Protocol error
+
+[ ] consecutevely reading low/high fuse on atmega162, atmega8
+    sometimes returns 0xff
+    -> bringing up and down progmode causes this
+    delays in leaveprogmode helped for m8
+    still if there's delay after leving progmode, m8 gives errors

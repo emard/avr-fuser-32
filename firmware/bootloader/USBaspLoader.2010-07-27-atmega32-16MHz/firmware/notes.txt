@@ -1,0 +1,12 @@
+useable if only read-while-write section (RWW)
+0x0000-0x6fff
+
+NRWW section 0x7000-0x77ff behaves different, 
+halting cpu while writing (writing fails)
+it should be possible to write there with modified code for NRWW section
+
+it could not be possible to verify or read NRWW section
+
+to enter bootloader,
+hold "START" button, press "RESET"
+release "RESET", release "START

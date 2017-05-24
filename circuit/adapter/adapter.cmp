@@ -1,0 +1,108 @@
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Čet 30 Kol 2012 17:13:13
+
+BeginCmp
+TimeStamp = /5016C6B4;
+Reference = C2;
+ValeurCmp = 10nF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5016C48B;
+Reference = C3;
+ValeurCmp = 10nF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5016C6FF;
+Reference = C4;
+ValeurCmp = 10nF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /50168B28;
+Reference = C5;
+ValeurCmp = 10nF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /50168AFA;
+Reference = C6;
+ValeurCmp = 10nF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /50164E25;
+Reference = IC1;
+ValeurCmp = ATMEGA8-P;
+IdModule  = DIP-28__300-bigpads;
+EndCmp
+
+BeginCmp
+TimeStamp = /50164F39;
+Reference = IC2;
+ValeurCmp = ATTINY2313-P;
+IdModule  = DIP-20__300-bigpads;
+EndCmp
+
+BeginCmp
+TimeStamp = /50163F84;
+Reference = IC3;
+ValeurCmp = ATMEGA16-P;
+IdModule  = DIP-40__600-bigpads;
+EndCmp
+
+BeginCmp
+TimeStamp = /50165155;
+Reference = IC4;
+ValeurCmp = ATTINY26-P;
+IdModule  = DIP-20__300-bigpads;
+EndCmp
+
+BeginCmp
+TimeStamp = /50164BA2;
+Reference = IC5;
+ValeurCmp = AT90S8515-P;
+IdModule  = DIP-40__600-bigpads;
+EndCmp
+
+BeginCmp
+TimeStamp = /50169663;
+Reference = IC7;
+ValeurCmp = ATTINY15-P-GOOD;
+IdModule  = DIP-8__300-bigpads;
+EndCmp
+
+BeginCmp
+TimeStamp = /50164FFE;
+Reference = IC8;
+ValeurCmp = ATTINY11-P;
+IdModule  = DIP-8__300-bigpads;
+EndCmp
+
+BeginCmp
+TimeStamp = /5017ADC2;
+Reference = IC9;
+ValeurCmp = ATMEGA16M1-M;
+IdModule  = DIP-32__600_bigpads;
+EndCmp
+
+BeginCmp
+TimeStamp = /5017AE17;
+Reference = IC10;
+ValeurCmp = ATTINY84-P;
+IdModule  = DIP-14__300_ELL-bigpads;
+EndCmp
+
+BeginCmp
+TimeStamp = /50165484;
+Reference = P1;
+ValeurCmp = CONN_10X2;
+IdModule  = conn_strip_10x2_largepads;
+EndCmp
+
+EndListe

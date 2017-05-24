@@ -1,0 +1,4 @@
+# USBASP bootloader AVR programmer
+# 16c0:05dc
+SUBSYSTEM=="usb_device",ACTION=="add",SYSFS{idVendor}=="16c0", SYSFS{idProduct}=="05dc", GROUP="dialout", MODE=0664
+ATTRS{idVendor}=="16c0", ATTRS{idProduct}=="05dc", ATTRS{product}=="USBasp", GROUP="dialout", MODE=0664

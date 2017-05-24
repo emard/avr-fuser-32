@@ -1,0 +1,11 @@
+--- USBaspLoader.2010-07-27/firmware/main.c.orig	2010-07-27 19:39:21.000000000 +0200
++++ USBaspLoader.2010-07-27/firmware/main.c	2011-11-11 13:23:12.425430309 +0100
+@@ -191,6 +191,8 @@ static uchar    replyBuffer[4];
+             isLastPage = rq->wIndex.bytes[1] & 0x02;
+ #if HAVE_EEPROM_PAGED_ACCESS
+             currentRequest = rq->bRequest;
++#elif HAVE_EEPROM_BYTE_ACCESS
++            currentRequest = rq->bRequest;
+ #endif
+             len = 0xff; /* hand over to usbFunctionRead() / usbFunctionWrite() */
+         }

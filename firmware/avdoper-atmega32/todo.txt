@@ -1,0 +1,25 @@
+HVPP mode:
+
+[x] fuser reads 1st byte of signature, all the rest are 0xff
+    target chip was not fully inserted into socket
+
+byte eeprom access doesn't work
+(writes just 0, reads wrong)
+
+(rewrite count tracking)
+
+avrdude -t 
+write eeprom 0 1
+-> instead of 1 it writes 0 to eeprom
+
+dump eeprom 0 6
+-> works correctly
+
+write to eeprom in byte mode in ISP mode works correctly
+write to eeprom in page mode in hvpp works correctly
+
+works first time, then fails
+
+[x] fix control message timeout in version 1.02
+    disabled cdc support, enabled fast crc routine
+    continuous verification now works w/o error

@@ -1,0 +1,8 @@
+use bootloader
+
+make fuser
+
+press start + reset
+
+make flash
+

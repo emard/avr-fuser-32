@@ -1,0 +1,20 @@
+programmer       ISP               ISP
+
+ATMEGA8          ATMEGA162         ATTINY84
+-------          ---------         --------
+25 PC2     ->    SCK    8          SCK   9
+26 PC3 inv <-    MISO   7          MISO  8
+27 PC4     ->    MOSI   6          MOSI  7
+28 PC5 inv ->    RESET  9          RESET 4
+   +5V           VCC    40         VCC   1
+   GND           GND    20         GND   14
+
+ATMEGA8          ATTINY84
+-------          --------
+11 PD5           8
+12 PD6           7
+13 PD7           9
+17 MOSI          2
+   HVRESET       4
+   GND           GND 14,13,12,10
+   +5V           VCC 1
