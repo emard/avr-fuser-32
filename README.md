@@ -14,7 +14,7 @@ AVRDUDE compatible, USB powered, onboard 5V->12V converter,
 adapter PCB for many popular DIP packages.
 
 Quick mode without PC and avrdude: Pushbutton
-resets chip to factory default state.
+erases chip to factory default state.
 
 Complete with firmware, bootloader, kicad schematics and PCB 
 for the programmer PCB and sockets adapter PCB.
