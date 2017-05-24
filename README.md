@@ -17,7 +17,7 @@ Quick mode without PC and avrdude: Pushbutton
 erases chip to factory default state.
 
 Complete with firmware, bootloader, kicad schematics and PCB 
-for the programmer PCB and sockets adapter PCB.
+for the programmer and sockets adapter.
 
 Supported devices (I tried many but not all of them :)
 
