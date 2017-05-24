@@ -21,8 +21,8 @@ for the programmer PCB and sockets adapter PCB.
 
 Supported devices:
 
-    ATMEGA 8, 16, 32, 162, 168, 328, 16M1, 32M1, 64M1
-    ATTINY 11, 84, 85, 3213
+    ATMEGA 8, 16, 32, 162, 168P, 328P, 16M1, 32M1, 64M1, 8515, 8535
+    ATTINY 11, 13, 15, 26, 84, 85, 2313, 4313
 
 # Remark
 
